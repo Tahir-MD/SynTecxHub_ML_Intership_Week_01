@@ -1,15 +1,15 @@
 # SynTecxHub_ML_Intership_Week_01
 # House Price Prediction - Machine Learning Project
 
-## A complete machine learning solution for predicting house prices using Linear Regression. This project implements a full data science pipeline from data loading and preprocessing to model training, evaluation, and deployment.
+A complete machine learning solution for predicting house prices using Linear Regression. This project implements a full data science pipeline from data loading and preprocessing to model training, evaluation, and deployment.
 
 # 🏠 Project Overview
 
-## This project predicts house prices based on various features such as location, number of rooms, population density, and median income. It demonstrates end-to-end machine learning workflow including data exploration, feature engineering, model training, and evaluation.
+This project predicts house prices based on various features such as location, number of rooms, population density, and median income. It demonstrates end-to-end machine learning workflow including data exploration, feature engineering, model training, and evaluation.
 
 # 📊 Dataset
 
-## The project uses the California Housing Dataset which contains:
+The project uses the California Housing Dataset which contains:
 
 · 20,640 samples of housing districts
 · 8 numerical features + 1 categorical feature
