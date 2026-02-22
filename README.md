@@ -56,17 +56,17 @@ Install Dependencies
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
 ```
-SynTecxHub_ML_Intership_Week_02
+# SynTecxHub_ML_Intership_Week_02
 
-Spam Detection - Machine Learning Project
+# Spam Detection - Machine Learning Project
 
 A complete machine learning solution for detecting spam messages using Natural Language Processing (NLP) techniques. This project implements an end-to-end pipeline from text preprocessing to model deployment with an interactive CLI interface.
 
-📧 Project Overview
+# 📧 Project Overview
 
 This project classifies SMS messages as either "Spam" (unwanted/unsolicited messages) or "Ham" (legitimate messages). It demonstrates comprehensive NLP workflow including text preprocessing, feature extraction, model comparison, evaluation, and deployment.
 
-📊 Dataset
+# 📊 Dataset
 
 The project uses the SMS Spam Collection Dataset which contains:
 
@@ -77,13 +77,13 @@ The project uses the SMS Spam Collection Dataset which contains:
 · Ham messages: 4,827 (87%)
 · Spam messages: 747 (13%)
 
-Features:
+# Features:
 
 · Message: Raw text content of SMS
 · Label: 'ham' or 'spam' (target variable)
 · Clean_Message: Preprocessed text after cleaning and stemming
 
-🚀 Features
+# 🚀 Features
 
 · Complete Text Pipeline: Cleaning, stemming, stopword removal
 · Exploratory Data Analysis: Class distribution visualization
@@ -94,7 +94,7 @@ Features:
 · Model Persistence: Save best pipeline using joblib
 · Interactive CLI: Real-time spam detection interface
 
-📈 Results
+# 📈 Results
 
 The trained models achieve:
 
@@ -104,14 +104,14 @@ The trained models achieve:
 · Recall (Spam): 0.92
 · F1-Score: 0.95
 
-🛠️ Installation & Requirements
+# 🛠️ Installation & Requirements
 
 Prerequisites
 
 · Python 3.8+
 · pip package manager
 
-Install Dependencies
+# Install Dependencies
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn nltk joblib
@@ -125,38 +125,7 @@ nltk.download('stopwords')
 nltk.download('punkt')
 ```
 
-📁 Repository Structure
-
-```
-SynTecxHub_ML_Intership_Week_02/
-│
-├── spam_detection.ipynb          # Complete Jupyter notebook
-├── spam_detection.py              # Python script version
-├── spam.csv                        # Dataset
-├── spam_detection_pipeline.pkl     # Saved model pipeline
-├── requirements.txt                 # Dependencies
-├── README.md                        # Documentation
-└── screenshots/                     # Output images
-    ├── data_distribution.png
-    ├── confusion_matrices.png
-    └── cli_output.png
-```
-
-💻 Usage
-
-Run Jupyter Notebook
-
-```bash
-jupyter notebook spam_detection.ipynb
-```
-
-Run Python Script
-
-```bash
-python spam_detection.py
-```
-
-Interactive CLI Mode
+# Interactive CLI Mode
 
 ```bash
 ==================================================
@@ -171,13 +140,13 @@ PREDICTION: Spam
 ==================================================
 ```
 
-📊 Model Comparison
+# 📊 Model Comparison
 
 Model Accuracy Precision (Spam) Recall (Spam) F1-Score
 Naive Bayes 96.5% 1.00 0.89 0.94
 Logistic Regression 97.8% 0.99 0.92 0.95
 
-🔮 Future Improvements
+# 🔮 Future Improvements
 
 · Add deep learning models (LSTM, BERT)
 · Create web application using Flask/Streamlit
@@ -185,7 +154,7 @@ Logistic Regression 97.8% 0.99 0.92 0.95
 · Add more datasets for better generalization
 · Implement real-time email filtering
 
-📝 requirements.txt
+# 📝 requirements.txt
 
 ```
 pandas
@@ -198,13 +167,13 @@ joblib
 jupyter
 ```
 
-📌 Acknowledgments
+# 📌 Acknowledgments
 
 · Syntexhub for the internship opportunity
 · UCI Machine Learning Repository for the dataset
 · NLTK and Scikit-learn communities for amazing tools
 
-📞 Contact & Links
+# 📞 Contact & Links
 
 · GitHub Repository: https://github.com/Tahir-MD/SynTecxHub_ML_Intership_Week_02
 · LinkedIn: https://www.linkedin.com/in/tahir-mahmood-781b93329?utm_source=share_via&utm_content=profile&utm_medium=member_android
